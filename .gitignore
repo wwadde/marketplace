@@ -1,0 +1,66 @@
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.jks
+*.pfx
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+
+# ==============================
+# IDE / editor
+# ==============================
+
+# IntelliJ / JetBrains
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+.history/*
+
+
+# ==============================
+# Backend: backend/ (Maven)
+# ==============================
+
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/dependency-reduced-pom.xml
+backend/pom.xml.versionsBackup
+backend/bin/
+backend/out/
+backend/*.hprof
+hs_err_pid*.log
+
