@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0A192F;
+    padding: 20px 50px;
+}
+
+.footer-col {
+    background-color: #0A192F;      
+    color: White;
+}
+
+.footer-bottom{
+    background-color: #0A192F; 
+    color: #F8FAFC;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid greenyellow;
+}
+
+.logo-footer {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0 auto 15px;
+    object-fit: contain;
+}
+
+.custom-footer a {
+    color: #F8FAFC;
+}
+
+.custom-footer a:hover {
+    color: greenyellow;
+}
+
+ul li {
+    color: greenyellow;
+
+}
