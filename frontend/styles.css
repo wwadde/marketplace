@@ -1,3 +1,143 @@
+
+/* header y navegacion*/
+
+/*Posición fiija del header*/
+
+.main-header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+/*alinear los bloques*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 12px 32px;
+    box-sizing: border-box;
+}
+
+/*logo y nombre*/
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #111827;
+}
+
+.logo-header{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.brand-name{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/*barra de busqueda (junta como en el ejemplo compartido por wade)*/
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 650px;
+    border: 2px solid #00c675; /* Verde esmeralda de la imagen */
+    border-radius: 9999px;
+    padding: 8px 18px;
+    background-color: #ffffff;
+}
+
+.search-field,
+.location-field {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-field {
+    flex: 1;
+}
+
+/*divisor de busqueda y lugar*/
+
+.location-field {
+    border-left: 1px solid #e5e7eb;
+    padding-left: 14px;
+    margin-left: 10px;
+}
+
+.search-icon,
+.location-icon {
+    font-size: 0.95rem;
+    color: #6b7280;
+}
+
+.input-query,
+.input-location {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 0.95rem;
+    color: #374151;
+    width: 100%;
+}
+
+.input-location {
+    width: 95px;
+}
+
+.input-query::placeholder,
+.input-location::placeholder {
+    color: #9ca3af;
+}
+
+/*login y logout*/
+.nav-auth {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-login,
+.btn-signup {
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 8px 18px;
+    border-radius: 9999px;
+    transition: all 0.2s ease;
+}
+
+.btn-login {
+    color: #111827;
+}
+
+.btn-login:hover {
+    color: #00c675;
+}
+
+.btn-signup {
+    color: #111827;
+    border: 1px solid #d1d5db;
+}
+
+.btn-signup:hover {
+    background-color: #f9fafb;
+    border-color: #9ca3af;
+}
+
 body {
     font-family: sans-serif;
 }
