@@ -9,7 +9,55 @@
 
 <body>
 
+    
+    
+    <header class="main-header">
+        <nav class="navbar">
 
+            <!--Logo y nombre--> 
+
+            <a href="/" class="nav-logo">
+            <img src="ico/IconMP.png" alt="MarketPlace logo" class="logo-header">
+            <strong class="brand-name">MarketPlace</strong>
+            </a>
+
+            <!-- Barra de busqueda-->
+
+            <form action="/search" method="get" class="search-bar">
+
+                <div class="search-field">
+                    <span class="search-icon">🔍</span>
+                    <input 
+                        type="search"
+                        name="query"
+                        placeholder="Search for anything"
+                        class="input-query"
+                    >
+                </div>
+
+                <div class="location-field">
+                    <span class="location-icon">📍</span>
+                    <input 
+                        type="text"
+                        name="location"
+                        placeholder="Anywhere"
+                        class="input-location"
+                    >
+
+                </div>
+            </form>
+
+
+            <!--Acciones de logueo y deslogueo-->
+
+            <div class="nav-auth">
+                <a href="/login" class="btn-login">Log In</a>
+                <a href="/signup" class="btn-signup">Sign Up</a>
+            </div>
+
+
+        </nav>
+    </header>
 
 
 
